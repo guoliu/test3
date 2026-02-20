@@ -1,7 +1,7 @@
 ---
 title: "IPFS開發者大會記錄"
 date: "2019-07-05T01:41:12.130Z"
-cover: "../assets/66296200-de80-43f1-a1a2-ce2b1403a3e2.jpg"
+cover: "[[assets/66296200-de80-43f1-a1a2-ce2b1403a3e2.jpg]]"
 syndicated:
   - "https://matters.town/@guo/ipfs開發者大會記錄-ln8fb7hqd36u"
 ---

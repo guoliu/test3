@@ -11,7 +11,7 @@ tags:
   - "Secure Scuttlebutt"
   - "Nostr"
   - "去中心化"
-cover: "../../assets/020c1a3f-91c8-4e1e-acd0-b2c6578f2692.png"
+cover: "[[assets/020c1a3f-91c8-4e1e-acd0-b2c6578f2692.png]]"
 syndicated:
   - "https://matters.town/@guo/联邦制社交协议-nostr-secure-scuttlebutt-farcaster-activity-pub-1scq4bvuyzoq"
 ---

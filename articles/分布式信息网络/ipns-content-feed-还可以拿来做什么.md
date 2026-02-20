@@ -9,7 +9,7 @@ tags:
   - "ENS"
   - "去中心化"
   - "Web3"
-cover: "../../assets/fd813bb8-7c42-4cd4-b867-5aad37e9f873.png"
+cover: "[[assets/fd813bb8-7c42-4cd4-b867-5aad37e9f873.png]]"
 syndicated:
   - "https://matters.town/@guo/ipns-content-feed-还可以拿来做什么-1jyhfks7nsdh"
 ---

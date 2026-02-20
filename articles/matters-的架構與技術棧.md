@@ -14,7 +14,7 @@ tags:
   - "React "
   - "Nextjs"
   - "GraphQL"
-cover: "../assets/d7de54bf-4272-42ed-ac8e-2d7cd91988ad.png"
+cover: "[[assets/d7de54bf-4272-42ed-ac8e-2d7cd91988ad.png]]"
 syndicated:
   - "https://matters.town/@guo/matters-的架構與技術棧-7a27j2b2lwkq"
 ---
