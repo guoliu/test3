@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>工程日誌 3/19：如何建立分布式的版權生態？ - 刘果</title>
+    <title>工程日誌 3/19：如何建立分布式的版權生態？ - 刘果的小站</title>
     <meta name="description" content="!...">
     <meta property="og:type" content="article">
     <meta property="og:title" content="工程日誌 3/19：如何建立分布式的版權生態？">
     <meta property="og:url" content="/articles/工程日誌-3-19-如何建立分布式的版權生態/">
-    <meta property="og:site_name" content="刘果">
+    <meta property="og:site_name" content="刘果的小站">
     <meta property="og:description" content="!...">
     <meta property="article:published_time" content="2019-03-19T19:11:45.340Z">
     <meta property="og:image" content="articles/assets/ead5ef5a-d140-4292-93cc-431d13a1a179.png">
@@ -23,21 +23,21 @@
   "image": "articles/assets/ead5ef5a-d140-4292-93cc-431d13a1a179.png",
   "publisher": {
     "@type": "Organization",
-    "name": "刘果"
+    "name": "刘果的小站"
   }
 }
 </script>
+    <link rel="icon" type="image/svg+xml" href="../../assets/favicon.svg">
     
     
     
-    
-    <link rel="stylesheet" href="../../style.css?v=4528a7cdafd12ac7">
+    <link rel="stylesheet" href="../../style.css?v=e9469913b04e3b93">
 </head>
 <body class="">
     <header>
         <nav class="main-nav container">
             <div class="nav-content">
-                <div class="nav-left"><a href="../../" class="site-name">刘果</a></div><div class="nav-right"><div class="nav-icons"><button class="theme-toggle" onclick="toggleTheme()" aria-label="切换深色模式" type="button" title="切换深色模式"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="1em" height="1em" fill="currentColor" stroke-linecap="round" class="theme-toggle__classic" viewBox="0 0 32 32"><clipPath id="theme-toggle__classic__cutout"><path d="M0-5h30a1 1 0 0 0 9 13v24H0Z"/></clipPath><g clip-path="url(#theme-toggle__classic__cutout)"><circle cx="16" cy="16" r="9.34"/><g stroke="currentColor" stroke-width="1.5"><path d="M16 5.5v-4"/><path d="M16 30.5v-4"/><path d="M1.5 16h4"/><path d="M26.5 16h4"/><path d="m23.4 8.6 2.8-2.8"/><path d="m5.7 26.3 2.9-2.9"/><path d="m5.8 5.8 2.8 2.8"/><path d="m23.4 23.4 2.9 2.9"/></g></g></svg></button></div></div>
+                <div class="nav-left"><a href="../../" class="site-name">刘果的小站</a></div><div class="nav-right"><div class="nav-icons"><button class="theme-toggle" onclick="toggleTheme()" aria-label="切换深色模式" type="button" title="切换深色模式"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="1em" height="1em" fill="currentColor" stroke-linecap="round" class="theme-toggle__classic" viewBox="0 0 32 32"><clipPath id="theme-toggle__classic__cutout"><path d="M0-5h30a1 1 0 0 0 9 13v24H0Z"/></clipPath><g clip-path="url(#theme-toggle__classic__cutout)"><circle cx="16" cy="16" r="9.34"/><g stroke="currentColor" stroke-width="1.5"><path d="M16 5.5v-4"/><path d="M16 30.5v-4"/><path d="M1.5 16h4"/><path d="M26.5 16h4"/><path d="m23.4 8.6 2.8-2.8"/><path d="m5.7 26.3 2.9-2.9"/><path d="m5.8 5.8 2.8 2.8"/><path d="m23.4 23.4 2.9 2.9"/></g></g></svg></button></div></div>
             </div>
         </nav>
     </header>
@@ -70,6 +70,7 @@
 <p>對於Matters，這個客戶端需要讓用戶能夠不經中心節點交易、瀏覽多媒體網頁，讓創作者自主創作、打包、定價、分發與分潤。通過分布式賬本技術，我們能夠將創作者與讀者直接相連，既能像BitTorrent一樣高效地分發數據，又能像Amazon等中心化的服務一樣維持一個良性的版權生態。長遠來看，這個客戶端也需要和諸多快速興起的分布式內容庫聯通，讓用戶能夠隨時調取屬於全人類的共同知識庫，不管是<a href="https://blog.ipfs.io/24-uncensorable-wikipedia/">維基百科</a>、<a href="http://damahub.org/">科研數據</a>還是<a href="https://sciencefair-app.com/">研究論文</a>。</p>
 <p>在Matters網站繼續進行迭代的同時，Matters工程團隊將會著手試驗這樣一個客戶端，從桌面版開始。盡管具體的產品邏輯和形態還在討論之中，技術層面已經有了不少線索。分布式存儲功能會由目前已經投入試驗的IPFS提供，而分布式賬本功能則會是目前相對成熟的區塊鏈形式（與合作伙伴<a href="https://medium.com/likecoin/likechain-technical-introduction-2728fbca649a">Likecoin</a>聯手）。同時，我們在原型階段會采用Electron.js平台，以便復用網站平台中成熟的UI與業務邏輯代碼。</p>
 <p>新版上線之前，我們已經將Matters所有文章重新發布至IPFS，一方面調整了版式，另一方面對圖片也進行了分布式存儲。同時，我們也重新設計了文章鏈接：文章鏈接末尾長度為49的字符串，是文章元數據在IPFS中的哈希值，包含文章的作者、發布平台、文章指紋等信息。例如，用戶可以復制文章的元數據哈希值，替換到以下鏈接（或者任何IPFS節點）中並打開 ”<em>https://ipfs.io/api/v0/dag/get?arg=${哈希值}/author”</em>，就可以看到作者的相關信息。這意味著，我們設想的桌面版本可以不經服務器，直接打開Matters文章的鏈接，調取作者與內容數據。</p>
+<p>\</p>
 <figure>
   <img src="https://d2mxuefqeaa7sj.cloudfront.net/s_9FD106869F1DE8C0CB9CBEB5F6C313C0E74A1C1353FAD12210FC355B8B3C3741_1552533843081_image.png" data-placeholder-src="https://d2mxuefqeaa7sj.cloudfront.net/s_9FD106869F1DE8C0CB9CBEB5F6C313C0E74A1C1353FAD12210FC355B8B3C3741_1552533843081_image.png" width="800" height="600" loading="lazy" alt="" />
   <figcaption>Matters設想中的分布式客戶端架構。綠色部分是分布式的核心功能，黃色部分是中心化的附加功能。客客戶端通過IPFS與以太坊實現核心功能，而搜索、推薦等本質上中心化的功能則作為附屬，依舊由Matters服務器提供。GraphQL負責整合遠程與本地模式，讓應用在能夠在連接服務器與斷開服務器之間切換。</figcaption>

@@ -2168,6 +2168,25 @@ body:not(.immersive-fs-active) main > article.container > *:not(.immersive-ifram
   background: rgba(128, 128, 128, 0.5);
 }
 
+/* WebKit (Safari + Tauri WKWebView): match native video player convention.
+   hanging-punctuation is Safari/WebKit-only (not Chrome/Firefox/Edge).
+   Placed after fullscreen-active rules so @supports overrides take precedence. */
+@supports (hanging-punctuation: first) {
+  .immersive-fullscreen-btn {
+    bottom: auto;
+    right: auto;
+    top: 16px;
+    left: 16px;
+  }
+
+  .immersive-fs-active .immersive-fullscreen-btn {
+    bottom: auto;
+    right: auto;
+    top: 24px;
+    left: 24px;
+  }
+}
+
 /* ==========================================================================
    16.4 FLIP Animation Classes
    Applied by JS during enter/exit transitions.
